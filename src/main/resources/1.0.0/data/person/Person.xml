@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="1" author="bmatthai">
+
+        <insert tableName="person">
+            <column name="name">Ilham</column>
+            <column name="idCar">1</column>
+        </insert>
+
+        <insert tableName="person">
+            <column name="name">Yassine</column>
+            <column name="idCar">3</column>
+        </insert>
+
+        <insert tableName="person">
+            <column name="name">Bastien</column>
+            <column name="idCar">2</column>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
